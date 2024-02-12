@@ -4,11 +4,43 @@ div {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 h1 {
     text-align: center;
+    box-sizing: border-box;
+    border: 4px solid black;
+    padding: 20px;
+    margin: 2em;
+    background-color: lightskyblue;
 }
 
 #hello {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    display: flex;
+    background-color: aqua;
+    border: 5px solid black;
+    flex: 2;
+    align-items: center;
+    flex-direction: row;
+    /* Allows you to fuuly center or change whatever you want about the flex */
+    justify-content: center;
+    /* flex-direction: column; can be used to change the rows into columns you must do is is the flex containter selector */
+    height: 100px; 
+    padding: 3px 3px;
+    margin: 20px 20px;
+}
+
+.flex-container a {
+    display: flex;
+    background-color: white;
+    border: 3px solid black;
+    padding: 25px;
+    margin: 20px;
+    justify-content: center;
+    
+
 }
